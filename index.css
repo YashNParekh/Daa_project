@@ -1,0 +1,30 @@
+
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#cy{
+    position: relative;
+    float: right;
+    height:80%;
+    width: 80%;
+}
+
+.range_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    float: left;
+    rotate: -90deg;
+    position: relative;
+    height: 100%;
+
+    &>input[type="range"]{
+        position: relative;
+    }
+
+}

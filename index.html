@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Visualization</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="cytoscape.min.js"></script>
+</head>
+<body style="position: relative;height: 100vh; width: 95vw;">
+    <div id="cy" style="width: 80%; height: 75%; display:block;position: relative;margin-bottom: 10px;"></div>
+    <div class="range_container">
+        <input type="range" min="5" max="60" value="10" id="slider">
+        <label class="current_node_count">10</label>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
